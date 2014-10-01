@@ -79,20 +79,17 @@ my_function(Msg) -> lager:info("~p", [Msg]).
 ```
 
 ## Naming
----
 * Always use `snake_case` for atoms.
 * Whenever possible, use `_<Description>` for unused fields in pattern matches for the sake of clarity.
 * Never use `_` for any other reason in variable names.
 * Use so-called `SCREAMING_SNAKE_CASE` for macro names.
 
 ## Comments
----
 * Module level comments should start with `%%%` and be at the top of the file
 * Function level comments should start with `%%` and be at the top of the function
 * Code comments should start with `%` and be above the line they are referencing
 
 
 ## Exception Handling
----
-
 * Avoid writing try/catch expressions.
+
